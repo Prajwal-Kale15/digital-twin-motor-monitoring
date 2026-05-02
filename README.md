@@ -1,13 +1,21 @@
-# 🔧 Digital Twin Motor Health Monitoring System
+#  A real-time Digital Twin system for motor health monitoring using ESP32, featuring predictive maintenance, fault detection, and live dashboard visualization.
 
-## 📌 Overview
+## Overview
 
 This project is a **real-time motor health monitoring system** using ESP32.
 It collects data from sensors and displays it on a live dashboard for predictive maintenance.
 
 ---
 
-## ⚙️ Features
+## Key Innovation
+- Low-cost digital twin implementation
+- Real-time health scoring system
+- Automatic fault detection + motor cutoff
+- Scalable for industrial use
+
+---
+
+## Features
 
 * Real-time monitoring (Temperature, Current, Vibration)
 * Health score calculation (0–100)
@@ -18,7 +26,7 @@ It collects data from sensors and displays it on a live dashboard for predictive
 
 ---
 
-## 🧠 Working
+## Working
 
 1. ESP32 collects sensor data
 2. Data is processed and health score is calculated
@@ -28,7 +36,7 @@ It collects data from sensors and displays it on a live dashboard for predictive
 
 ---
 
-## 🚨 Fault Conditions
+## Fault Conditions
 
 * Temperature > 27°C → Warning (Yellow LED)
 * Temperature > 36°C → Critical (Red LED + Buzzer + Motor OFF)
@@ -37,7 +45,7 @@ It collects data from sensors and displays it on a live dashboard for predictive
 
 ---
 
-## 📊 Technologies Used
+## Technologies Used
 
 * ESP32
 * Arduino IDE
@@ -46,14 +54,14 @@ It collects data from sensors and displays it on a live dashboard for predictive
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 * `reader.py` → Reads serial data
 * `app.py` → Dashboard UI
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Upload Arduino code to ESP32
 2. Run:
@@ -69,7 +77,7 @@ It collects data from sensors and displays it on a live dashboard for predictive
 
 ---
 
-## 🎯 Outcome
+##  Outcome
 
 * Real-time motor monitoring achieved
 * Fault detection implemented
