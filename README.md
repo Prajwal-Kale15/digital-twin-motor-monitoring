@@ -85,6 +85,65 @@ It collects data from sensors and displays it on a live dashboard for predictive
 
 ---
 
+## Hardware Connections
+
+### Temperature Sensor (LM35)
+
+* VCC → 5V (ESP32)
+* GND → GND
+* OUT → GPIO 34
+
+---
+
+### Current Sensor (ACS712)
+
+* VCC → 5V
+* GND → GND
+* OUT → GPIO 35
+
+---
+
+### Vibration Sensor (Analog)
+
+* VCC → 3.3V
+* GND → GND
+* OUT → GPIO 32
+
+---
+
+### LEDs
+
+* Green LED → GPIO 25 (Normal)
+* Yellow LED → GPIO 26 (Warning)
+* Red LED → GPIO 27 (Fault)
+
+---
+
+### Buzzer
+
+* Positive → GPIO 14
+* Negative → GND
+
+---
+
+### Motor (via Relay Module)
+
+* Relay IN → GPIO 33
+* VCC → 5V
+* GND → GND
+* Motor connected through relay switch
+
+---
+
+### Switch (Manual Control)
+
+* One side → GPIO 4
+* Other side → GND
+* Use INPUT_PULLUP in code
+
+---
+
+
 ## 👨‍💻 Author
 
 Prajwal Kale
